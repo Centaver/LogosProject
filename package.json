@@ -1,28 +1,35 @@
 {
-    "name": "project",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/NazikKoval/LogosProject.git"
-    },
-    "author": "",
-    "license": "ISC",
-    "devDependencies": {
-        "grunt": "^1.0.1",
-        "grunt-contrib-concat": "^1.0.1",
-        "grunt-contrib-cssmin": "^2.2.1",
-        "grunt-contrib-sass": "^1.0.0",
-        "grunt-contrib-uglify": "^2.0.0",
-        "grunt-contrib-watch": "^1.0.0",
-        "grunt-css": "^0.3.2"
-    },
-    "bugs": {
-        "url": "https://github.com/NazikKoval/LogosProject/issues"
-    },
-    "homepage": "https://github.com/NazikKoval/LogosProject#readme"
+  "name": "project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NazikKoval/LogosProject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-cssmin": "^2.2.1",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-css": "^0.3.2"
+  },
+  "bugs": {
+    "url": "https://github.com/NazikKoval/LogosProject/issues"
+  },
+  "homepage": "https://github.com/NazikKoval/LogosProject#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mysql": "^2.15.0",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2"
+  }
 }
